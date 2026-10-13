@@ -10,5 +10,16 @@
   },
   "rules": {
     "no-console": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "public/**/*.js"
+      ],
+      "env": {
+        "browser": true,
+        "node": false
+      }
+    }
+  ]
 }
